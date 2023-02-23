@@ -33,8 +33,7 @@ def load_chain():
     )
     
     llm = OpenAI(
-    temperature=0, 
-    openai_api_key=OPENAI_API_KEY
+    temperature=0
     )
     
     chain = ConversationChain(llm=llm, 
